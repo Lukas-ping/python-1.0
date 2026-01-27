@@ -51,4 +51,4 @@ Este repositorio forma parte de mi proceso de aprendizaje y práctica continua e
 📫 Podés encontrarme también en:
 - LinkedIn: https://www.linkedin.com/in/lukas-pare-0835a6381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
-- e
+  
