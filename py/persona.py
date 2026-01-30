@@ -21,12 +21,3 @@ class hijo:
     def micochefavorito(self):
         print("mi coche favorito es ", self.coche_favorito)
 
-
-    
-hijo = int (input("que quieres saber de mi?"))
-
-hijo = int (input("mi signo , mi nombre , mi edad , mi signo , mi lugar de nacimiento , mi coche favorito"))
-
-
-if saber_que == "mi signo":
-  print ("mi signo es ", self )
