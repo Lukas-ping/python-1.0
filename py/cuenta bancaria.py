@@ -23,9 +23,17 @@ while intentos < max_intentos:
 if intentos == max_intentos:
     print("Demasiados intentos fallidos, tu cuenta ha sido bloqueada")
 
+while True:
+    print("\n--- MENÚ PRINCIPAL ---")
+    print("1 - Mostrar saldo")
+    print("2 - Depositar")
+    print("3 - Retirar")
+    print("4 - Salir")
+    operaciones_disponibles = input("Elige una operación (1, 2, 3, 4): ")
+if operaciones_disponibles == "1":
+        operaciones_disponibles = "mostrar saldo"
 
 
-operaciones_disponibles = input("¿que operacion deseas realizar? (mostrar saldo, depositar, retirar): ")
 
 class CuentaBancaria:
     def __init__(self, titular , saldo , numero_de_cuenta , contreseña):
