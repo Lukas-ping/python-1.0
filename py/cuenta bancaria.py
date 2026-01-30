@@ -24,7 +24,8 @@ if intentos == max_intentos:
     print("Demasiados intentos fallidos, tu cuenta ha sido bloqueada")
 
 
-operaciones_disponibles = (input("¿Qué operación deseas realizar? (mostrar saldo, depositar, retirar): "))
+
+operaciones_disponibles = input("¿que operacion deseas realizar? (mostrar saldo, depositar, retirar): ")
 
 class CuentaBancaria:
     def __init__(self, titular , saldo , numero_de_cuenta , contreseña):
