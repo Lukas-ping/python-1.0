@@ -9,6 +9,8 @@ contraseña_correcta = "abc123"
 intentos = 0
 max_intentos = 3
 
+
+
 while intentos < max_intentos:
     contraseña = input("Ingresa la contraseña de tu cuenta bancaria: ")
 
@@ -23,17 +25,7 @@ while intentos < max_intentos:
 if intentos == max_intentos:
     print("Demasiados intentos fallidos, tu cuenta ha sido bloqueada")
 
-while True:
-    print("\n--- MENÚ PRINCIPAL ---")
-    print("1 - Mostrar saldo")
-    print("2 - Depositar")
-    print("3 - Retirar")
-    print("4 - Salir")
-    operaciones_disponibles = input("Elige una operación (1, 2, 3, 4): ")
-if operaciones_disponibles == "1":
-        operaciones_disponibles = "mostrar saldo"
-
-
+opreraciones_disponibles = input("elige una operacion (mostrar saldo, depositar, retirar): ")
 
 class CuentaBancaria:
     def __init__(self, titular , saldo , numero_de_cuenta , contreseña):
