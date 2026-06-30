@@ -1,8 +1,8 @@
 class hijo:
     def __init__(self,nombre,edad,signo,lugar_de_nacimiento,Coche_favorito):
-       self.nombre = "lukas"
+       self.nombre = "mauro"
        self.edad = "18"
-       self.signo = "acuario"
+       self.signo = "piscis"
        self.lugar_de_nacimiento= "Argentina"
        self.coche_favorito= "Porsche 918 spyder"
 

@@ -36,15 +36,15 @@ class CuentaBancaria:
 
 CuentaBancaria = CuentaBancaria("luis" , 1000 , "123456789" , "abc123")
 
-if operaciones_disponibles == "mostrar saldo":
+if opreraciones_disponibles == "mostrar saldo":
         print("el saldo de la cuenta es de:", CuentaBancaria.saldo)
 
-elif operaciones_disponibles == "depositar":
+elif opreraciones_disponibles == "depositar":
      monto_a_depositar = float(input("ingresa el monto a depositar: "))
      CuentaBancaria.saldo += monto_a_depositar
      print("deposito exitoso. nuevo saldo:", CuentaBancaria.saldo)
 
-elif operaciones_disponibles == "retirar":
+elif opreraciones_disponibles == "retirar":
         monto_a_retirar = float(input("ingresa el monto a retirar: "))
         if monto_a_retirar <= CuentaBancaria.saldo:
             CuentaBancaria.saldo -= monto_a_retirar
